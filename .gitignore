@@ -1,0 +1,7 @@
+**/.venv
+**/__pycache__
+**/reports
+**/resources
+**/temp
+**/config.json
+**/chromedriver.exe
