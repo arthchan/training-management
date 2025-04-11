@@ -22,7 +22,7 @@ def fetch_training_record(config):
 
     # Initialise webdriver
     options = webdriver.ChromeOptions()
-    # options.add_argument("--headless=new")
+    options.add_argument("--headless=new")
     web = webdriver.Chrome(options=options)
 
     # Get user path
